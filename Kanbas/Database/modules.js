@@ -81,36 +81,42 @@ export default [
       _id: "M201",
       name: "Fundamentals of Aerodynamics",
       description: "Basic aerodynamic concepts and fluid dynamics principles.",
-      course: "RS102"
+      course: "RS102",
+      lessons: []
     },
     {
       _id: "M202",
       name: "Subsonic and Supersonic Flow",
       description: "Understanding subsonic and supersonic aerodynamic behaviors.",
-      course: "RS102"
+      course: "RS102",
+      lessons: []
     },
     {
       _id: "M203",
       name: "Aerodynamic Heating",
       description: "Study of aerodynamic heating and thermal protection systems.",
-      course: "RS102"
+      course: "RS102",
+      lessons: []
     },
     {
       _id: "M301",
       name: "Spacecraft Structural Design",
       description: "Fundamentals of designing spacecraft structures and materials selection.",
-      course: "RS103"
+      course: "RS103",
+      lessons: []
     },
     {
       _id: "M302",
       name: "Orbital Mechanics",
       description: "Understanding orbital dynamics and mission planning.",
-      course: "RS103"
+      course: "RS103",
+      lessons: []
     },
     {
       _id: "M303",
       name: "Spacecraft Systems Engineering",
       description: "Overview of spacecraft systems and subsystems engineering.",
-      course: "RS103"
+      course: "RS103",
+      lessons: []
     }
 ]
