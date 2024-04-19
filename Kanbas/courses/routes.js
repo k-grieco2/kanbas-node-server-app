@@ -4,8 +4,8 @@ export default function CourseRoutes(app) {
     const course = await dao.createCourse(req.body);
     res.json(course);
   };
-  const deleteCourse = async (req, res) => { 
-    const status = await dao.deleteCourse(req.params.courseId);
+  const deleteCourse = async (req, res) => {
+    const status = await dao.deleteCourse(req.params.id);
     res.json(status);
   };
   const findAllCourses = async (req, res) => { 
@@ -13,12 +13,11 @@ export default function CourseRoutes(app) {
     res.json(courses);
   };
   const findCourseById = async (req, res) => {
-    const course = await dao.findCourseById(req.params.courseId);
+    const course = await dao.findCourseById(req.params.id);
     res.json(course);
   };
   const updateCourse = async (req, res) => { 
-    const { courseId } = req.params;
-    const status = await dao.updateCourse(courseId, req.body);
+    const status = await dao.updateCourse(req.params.id, req.body);
     res.json(status);
   };
 
